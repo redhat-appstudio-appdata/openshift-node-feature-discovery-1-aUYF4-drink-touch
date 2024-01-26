@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: openshift-cluster-nfd-operator-cvoy
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rhn-gps-cprocter-tenant/openshift-node-feature-discovery-1/openshift-cluster-nfd-operator-cvoy@sha256:c8be2e6c61caef5a28ec6295be2e550453207fb93d61348a760e7254d0379f0e
         imagePullPolicy: Always
         name: container-image
         ports:
