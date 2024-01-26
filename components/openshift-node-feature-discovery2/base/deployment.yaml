@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: openshift-node-feature-discovery2
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rhn-gps-cprocter-tenant/openshift-node-feature-discovery-1/openshift-node-feature-discovery2@sha256:3bb892e5088a55d43998b80fe518874c674bdb0e992b8e4718458260dc0af221
         imagePullPolicy: Always
         name: container-image
         ports:
