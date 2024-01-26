@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: openshift-node-feature-discovery2
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhn-gps-cprocter-tenant/openshift-node-feature-discovery-1/openshift-node-feature-discovery2@sha256:3bb892e5088a55d43998b80fe518874c674bdb0e992b8e4718458260dc0af221
+        name: container-image
+        resources: {}
+status: {}
