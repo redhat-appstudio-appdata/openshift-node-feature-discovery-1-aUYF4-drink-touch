@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: openshift-node-feature-discovery-1
   name: openshift-cluster-nfd-operator-cvoy
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
